@@ -1,0 +1,338 @@
+@media (max-width: 1400px) {
+  /* header */
+
+  /* hero */
+
+  /* about */
+  .section-about-item {
+    padding: 67px 20px;
+  }
+  .section-about-item-img {
+    padding-right: 20px;
+  }
+  .section-about-item-description {
+    line-height: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    max-width: 964px;
+  }
+  /* header */
+  .burger {
+    height: 23px;
+    width: 30px;
+    display: inline-block;
+  }
+  .nav-list {
+    display: none;
+  }
+
+  /* hero */
+  .hero-content{
+    padding: 160px 77px;
+  }
+  .slide1{
+    background-image: url(/img/hero-lowsize.png);
+  }
+  .section-hero-heading {
+    font-size: 60px;
+    line-height: 73px;
+  }
+  .section-hero-description {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .hero-btn {
+    margin-top: 60px;
+  }
+  /* about */
+  .section-about-main-img {
+    max-width: none;
+  }
+  .section-about-item {
+    max-width: none;
+  }
+  .section-about-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-about-item {
+    margin-top: 32px;
+    margin-left: 0;
+  }
+
+  /* how  */
+  .section-how-steps-description {
+    margin-bottom: 30px;
+  }
+  .section-how-steps-more-btn {
+    margin-right: 20px;
+    width: 188.55px;
+  }
+  .section-how-steps-treaty-btn {
+    width: 147px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 710px;
+  }
+
+  /* hero */
+  .hero-content {
+    padding: 160px 40px;
+  }
+  .section-hero-heading {
+    font-size: 50px;
+    line-height: 61px;
+  }
+  .section-hero-description {
+    padding-top: 12px;
+    font-size: 18px;
+  }
+
+  /* about */
+
+  .about-container {
+    padding-top: 80px;
+  }
+  .section-about-heading {
+    font-size: 48px;
+    line-height: 59px;
+  }
+  .sectiob-about-description {
+    line-height: 20px;
+  }
+  .section-about-svg {
+    width: 114px;
+    height: 100px;
+  }
+  .section-about-item-description {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  /* how */
+  .section-how {
+    padding-top: 80px;
+  }
+  .section-how-list {
+    justify-content: space-between;
+  }
+  .section-how-main {
+    display: none;
+    flex-direction: column-reverse;
+  }
+  .how-active{
+    display: flex;
+  }
+  .section-how-img {
+    margin-bottom: 38px;
+  }
+  .section-how-left {
+    margin-right: 0px;
+  }
+  .section-how-steps-more-btn {
+    margin-right: 30px;
+    width: 188.55px;
+  }
+
+  /* faq  */
+
+  .section-faq {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .section-faq-item-heading {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .section-faq-svg {
+    width: 30px;
+    height: 30px;
+  }
+  /* .footer */
+
+  .footer-description {
+    display: none;
+  }
+}
+/* @media (max-width: 576px){
+  .container {
+    max-width: 380px;
+  }
+} */
+@media (max-width: 576px) {
+  .container {
+    max-width: 420px;
+  }
+
+  /* header */
+  .menu-list{
+    margin: 40px 50px;
+  }
+  .logo {
+    height: 35px;
+    width: 110px;
+  }
+
+  /* hero */
+
+  .hero-content {
+    padding: 60px 22px;
+  }
+  .section-hero-slide{
+    min-height: 308px;
+  }
+  .section-hero-heading {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .section-hero-description {
+    padding-top: 6px;
+
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+  }
+  .hero-btn {
+    width: 160px;
+    height: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px;
+    padding: 0px;
+    margin-top: 32px;
+
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* about */
+
+  .about-container {
+    padding-top: 60px;
+  }
+  .section-about-heading {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .section-about-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .section-about-main-img {
+    min-height: 300px;
+  }
+  .section-about-svg {
+    width: 64px;
+    height: 55px;
+  }
+  .section-about-main-img-grey {
+    display: none;
+  }
+  .section-about-item {
+    display: block;
+    border: 0px;
+    padding: 0px;
+    padding-top: 32px;
+    margin: 0px;
+  }
+  .section-about-item-heading {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .section-about-item-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  /* how */
+
+  .section-how {
+    padding-top: 60px;
+  }
+  .section-how-heading {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    margin-bottom: 16px;
+  }
+  .section-how-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .section-how-item:not(:last-child) {
+    margin-right: 0px;
+  }
+  .section-how-list {
+    margin-bottom: 16px;
+  }
+  .section-how-steps-heading {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .section-how-steps-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .section-how-btns {
+    min-width: 0px;
+  }
+  .section-how-steps-more-btn {
+    width: 157px;
+    height: 40px;
+    margin: 0px;
+  }
+  .section-how-steps-treaty-btn {
+    width: 118px;
+    height: 40px;
+  }
+
+  /* faq */
+
+  .section-faq {
+    padding-top: 60px;
+  }
+  .section-faq-heading {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .section-faq-item-heading {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .section-faq-description{
+    padding: 10px 0px;
+    font-size: 12px; 
+    line-height: 18px;
+    max-width: 100%; 
+  }
+}
+@media (max-width: 380px){
+  .container {
+    max-width: 320px;
+  }
+  .section-about-main-img {
+    min-height: 200px;
+  }
+}
